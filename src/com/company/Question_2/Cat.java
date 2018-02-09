@@ -1,19 +1,16 @@
 package com.company.Question_2;
 
-public class Cat {
+public class Cat extends Ferret{
 
     private boolean likesCatnip;
     private boolean usesLitterbox;
     private String furType;
 
-    public Cat(boolean likesCatnip, boolean usesLitterbox, String furType) {
+    public Cat(boolean likesToPlay, boolean likesCatnip, boolean usesLitterbox, String furType) {
+        super(likesToPlay);
         this.likesCatnip = likesCatnip;
         this.usesLitterbox = usesLitterbox;
         this.furType = furType;
-    }
-
-    public Cat() {
-
     }
 
     public boolean isLikesCatnip() {

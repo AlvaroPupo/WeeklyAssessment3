@@ -12,6 +12,7 @@ public class Main {
 
         /* ANSWER QUESTION HERE:
 
+            to use non static methods and share code with other classes.
 
 
          */

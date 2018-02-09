@@ -1,6 +1,13 @@
 package com.company.Question_2;
 
-public class Main {
+public class Main extends Cat{
+
+    public Main(boolean likesToPlay, boolean likesCatnip, boolean usesLitterbox, String furType) {
+        super(likesToPlay, likesCatnip, usesLitterbox, furType);
+    }
+
+
+
 
     public static void main(String[] args) {
         /*

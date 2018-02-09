@@ -11,5 +11,7 @@ public class Main {
         3. Instantiate the switch class in this main method and run the method you created.
          */
 
+        Switch New = new Switch();
+        New.startSwitch();
     }
 }

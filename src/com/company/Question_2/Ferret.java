@@ -5,7 +5,7 @@ public class Ferret {
     private boolean likesToPlay;
 
     public Ferret(boolean likesToPlay) {
-        this.likesToPlay = likesToPlay;
+        this.likesToPlay = false;
     }
 
     public boolean isLikesToPlay() {
